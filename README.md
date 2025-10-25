@@ -31,4 +31,16 @@ This project enables:
 ## 🧱 Model Structure
 
 The heat pump thermodynamic cycle is defined as:
+CycleCloser → Evaporator → Compressor → Condenser → Valve → CycleCloser
 
+Water loops:
+- **Evaporator side:** heat source (water gives heat to refrigerant)
+- **Condenser side:** heat sink (water receives heat from refrigerant)
+
+---
+
+## 📂 Repository Structure
+
+├── HP_case_data.xlsx # Example input data
+├── heat_pump_model.py # Main simulation script
+├── README.md # Documentation
